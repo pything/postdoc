@@ -7,7 +7,7 @@ __doc__ = r"""
 
            Created on 09/03/2020
            """
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
 import os
 from datetime import datetime
