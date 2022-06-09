@@ -101,7 +101,7 @@ class PostdocPackage:
     @property
     def url(self) -> str:
         """ """
-        return "https://github.com/cnheider/postdoc"
+        return "https://github.com/pything/postdoc"
 
     @property
     def download_url(self) -> str:
