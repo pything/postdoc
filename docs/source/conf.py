@@ -25,7 +25,13 @@ PACKAGE_ROOT = Path(__file__).parent.parent.parent
 print(f"PACKAGE_ROOT: {PACKAGE_ROOT}")
 sys.path.insert(0, str(PACKAGE_ROOT.absolute()))
 
-from postdoc import PROJECT_AUTHOR, PROJECT_NAME, PROJECT_YEAR, PROJECT_VERSION, __project__
+from postdoc import (
+    PROJECT_AUTHOR,
+    PROJECT_NAME,
+    PROJECT_YEAR,
+    PROJECT_VERSION,
+    __project__,
+)
 
 # -- General configuration ------------------------------------------------
 
@@ -166,7 +172,9 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, PROJECT_NAME, f"{PROJECT_NAME} Documentation", [PROJECT_AUTHOR], 1)]
+man_pages = [
+    (master_doc, PROJECT_NAME, f"{PROJECT_NAME} Documentation", [PROJECT_AUTHOR], 1)
+]
 
 # -- Options for Texinfo output -------------------------------------------
 
