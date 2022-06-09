@@ -3,10 +3,12 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
+SPHINXOPTS    =
+SPHINXBUILD   = sphinx-build
+SPHINXPROJ    = Postdoc
 SOURCEDIR     = source
 BUILDDIR      = ../docs/github
+PYCMD 		  = python
 
 
 # Put it first so that "make" without argument is like "make help".
