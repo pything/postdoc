@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.13-slim
 
 LABEL "maintainer"="Christian Heider <christian.heider@alexandra.dk>"
 LABEL "repository"="https://github.com/cnheider/gh-action-postdoc"
